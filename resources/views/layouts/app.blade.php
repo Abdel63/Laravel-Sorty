@@ -32,11 +32,12 @@
         forced_root_block : false,
         });
     </script>
+     <link rel="stylesheet" type="text/css" href="layout.css" />
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
+            <div class="container" >
                 <h3>
                     {{ config('app.name', 'Laravel') }}
                 </h3>
